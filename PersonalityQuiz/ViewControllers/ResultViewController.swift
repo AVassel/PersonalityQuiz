@@ -1,19 +1,17 @@
 //
-//  ViewController.swift
+//  ResultViewController.swift
 //  PersonalityQuiz
 //
-//  Created by Anton Vassel on 05.04.2022.
+//  Created by Anton Vassel on 14.04.2022.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class ResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
-
 }
-

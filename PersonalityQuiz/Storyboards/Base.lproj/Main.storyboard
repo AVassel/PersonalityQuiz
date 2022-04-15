@@ -272,13 +272,7 @@
                             <constraint firstItem="hp3-v5-Y5M" firstAttribute="leading" secondItem="pF8-Vv-gUb" secondAttribute="leading" id="zQT-Un-8mW"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Вопрос №" largeTitleDisplayMode="always" id="9H9-7Z-WZr">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="6yI-Pw-sff">
-                            <connections>
-                                <segue destination="5Ir-rk-V8g" kind="show" id="WkM-fW-Cim"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Вопрос №" largeTitleDisplayMode="always" id="9H9-7Z-WZr"/>
                     <connections>
                         <outlet property="multipleSV" destination="ihQ-Si-6s0" id="W6a-VU-QSF"/>
                         <outlet property="questionLabel" destination="oku-7G-XMc" id="2VO-Uc-cmK"/>
@@ -348,6 +342,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="navigationBar" destination="kbK-Dj-v6u" id="7kz-3r-Zzl"/>
+                        <outlet property="youAreLabel" destination="yjo-qJ-MB1" id="CvB-WX-7Li"/>
+                        <outlet property="yourDefinitionLabel" destination="VA5-DD-kWo" id="o1m-6E-V8z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="alt-x2-eDc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="F2m-br-Dqv" userLabel="Exit" sceneMemberID="exit"/>
@@ -373,9 +372,6 @@
             <point key="canvasLocation" x="930" y="114"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="33y-C9-7uJ"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
